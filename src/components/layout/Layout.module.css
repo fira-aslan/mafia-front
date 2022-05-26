@@ -1,0 +1,16 @@
+.main {
+  margin: 3rem auto;
+  width: 30%;
+  max-width: 40rem;
+}
+
+@media (max-width: 800px){
+  .main{
+    width:60%
+  }
+}
+
+.page{
+  /* background-image: url(next.jpeg); */
+  height: 100vh;
+}

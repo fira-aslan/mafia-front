@@ -1,0 +1,78 @@
+.container {
+  background-color: #ddd4d4;
+  border-radius: 20px;
+  width: 650px;
+  height: 390px;
+}
+
+.heading {
+  font-size: 50px;
+  font-family: "Griffy", cursive;
+  color: #a39b75;
+  margin: 4rem auto;
+}
+
+.desc {
+  padding-top: 30px;
+  border-radius: 14px;
+  background-color: #ddd4d4;
+}
+
+.record {
+  font-size: 30px;
+  color: #1a1e25;
+  background-color: #ddd4d4;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.add {
+  padding-left: 80px;
+  padding-right: 80px;
+  display: inline;
+  background-color: #ddd4d4;
+}
+
+.join {
+  display: inline;
+  float: right;
+  margin-right: 30px;
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #772424;
+  color: white;
+}
+
+.randshuffle {
+  align-self: center;
+  background-color: #ddd4d4;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.randshuffle button{
+    color: white;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.randshuffle button:hover,
+.randshuffle button:active {
+  background-color: #7c3838;
+}
+
+.shuffle {
+  margin-left: 2rem;
+  float: left;
+}
+
+.random {
+  margin-right: 2rem;
+  float: right;
+}

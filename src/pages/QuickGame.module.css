@@ -1,0 +1,97 @@
+.main {
+  padding: 1rem;
+  margin-top: 20%;
+}
+
+.key {
+  padding: 1rem;
+  margin-top: 1rem;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.control label {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+  color: #a39b75;
+}
+
+.control input {
+  display: block;
+  font: inherit;
+  border-radius: 15px;
+  border: none;
+  padding: 20px;
+  width: 28.5rem;
+  height: 50px;
+  background-color: #ddd4d4;
+}
+
+.control input:focus{
+  outline: none;
+}
+
+.key .control input {
+  display: block;
+  font: inherit;
+  border-radius: 15px;
+  border: none;
+  padding: 20px;
+  width: 20rem;
+  height: 50px;
+  background-color: #ddd4d4;
+}
+
+.enter {
+  margin-top: auto;
+  margin-left: 20px;
+}
+
+.enter button {
+  font: inherit;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: #77002e;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.enter button:hover,
+.enter button:active {
+  background-color: #7c3838;
+}
+
+.main h2{
+  color: #a39b75;
+  margin: 10px auto;
+}
+
+.choose button {
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: inherit;
+  border-radius: 15px;
+  width: 28.5rem;
+  height: 60px;
+  background-color: #ddd4d4;
+  color: black;
+  border: none;
+}
+
+.choose button:hover,
+.choose button:active {
+  background-color: #cac0c0;
+}
+
+.rooms h3{
+  color: #a39b75;
+}
+
+

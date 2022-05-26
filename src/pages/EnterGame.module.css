@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20%;
+  padding: 1rem;
+}
+
+.logo {
+  /* font-family: "Lobster Two", cursive; */
+  font-family: 'Griffy', cursive;
+  font-size: 110px;
+  color: #a39b75;
+}
+
+.clickable {
+  padding: 2rem;
+}
+
+.actions {
+  margin-bottom: 1rem;
+}
+
+.actions button {
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: inherit;
+  border-radius: 15px;
+  width: 350px;
+  height: 60px;
+  background-color: #ddd4d4;
+  color: black;
+  border: none;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #cac0c0;
+}
+
+
